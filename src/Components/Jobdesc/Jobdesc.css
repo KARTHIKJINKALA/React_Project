@@ -1,0 +1,204 @@
+.jobdesc-containerdec {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Job Details Section */
+.job-detailsdec {
+
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    padding: 20px;
+    width: 65%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-detailsdec h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job-detailsdec p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Job Actions Section */
+.job-actionsdec{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.job-actionsdec button {
+    width: 50%;
+    /* padding: 10px 15px; */
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    /* margin-right: 26%; */
+}
+
+.job-actionsdec button:first-child {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.job-actionsdec button:first-child:hover {
+    background-color: #45a049;
+}
+
+.job-actionsdec button:last-child {
+    background-color: #007bff;
+    color: white;
+}
+
+.job-actionsdec button:last-child:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  
+  @media screen and (width<576px){
+    .jobdesc-containerdec {
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+        font-family: Arial, sans-serif;
+    }
+    
+    /* Job Details Section */
+    .job-detailsdec {
+    
+        border: 1px solid #ddd;
+        background: #f9f9f9;
+        padding: 20px;
+        width: 65%;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .job-detailsdec h1 {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .job-detailsdec p {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.5;
+    }
+    
+    /* Job Actions Section */
+    .job-actionsdec{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        border: 1px solid #ddd;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        justify-content: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Buttons */
+    .job-actionsdec button {
+        width: 85%;
+        /* padding: 10px 15px; */
+        font-size: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+        /* margin-right: 26%; */
+    }
+    
+    .job-actionsdec button:first-child {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    .job-actionsdec button:first-child:hover {
+        background-color: #45a049;
+    }
+    
+    .job-actionsdec button:last-child {
+        background-color: #007bff;
+        color: white;
+    }
+    
+    .job-actionsdec button:last-child:hover {
+        background-color: #0056b3;
+    }
+    
+    .message {
+        padding: 10px;
+        margin: 10px 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 0.8rem;
+        border-radius: 5px;
+        transition: opacity 0.5s ease-in-out;
+      }
+      
+      .success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+      }
+      
+      .error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+      }
+      
+      
+    
+  }
