@@ -4,6 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 // Import Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "../../assets/Logo/Logo.png"
 import { 
   faBuilding, 
   faSignOutAlt, 
@@ -192,7 +193,7 @@ export const Employerpage = () => {
       <div className="userprofilepage">
         <div className="leftone">
           <div className="logo-container">
-      <img src="../src\Components\Landingpage\svgviewer-png-output (2).png" alt=""  height={"100vh"} width={"160vw"}/>
+      <img src={Logo} alt=""  height={"100vh"} width={"160vw"}/>
             
            
           </div>

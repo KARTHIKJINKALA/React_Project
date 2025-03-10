@@ -7,6 +7,7 @@ import "./Jobdesc.css";
 import { Link } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton'
+import Logo from "../../assets/Logo/Logo.png"
 
 export const Jobdesc = () => {
   const navigate = useNavigate();
@@ -129,7 +130,7 @@ export const Jobdesc = () => {
       <div className="Applicantpage">
         <div className="left">
 <Link to={"/Applicant"}>          <img
-            src="../src\Components\Landingpage\svgviewer-png-output (2).png"
+            src={Logo}
             alt=""
         
           /></Link>

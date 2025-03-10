@@ -4,6 +4,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import Logo from "../../assets/Logo/Logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
   faBuilding, 
@@ -93,7 +94,7 @@ const Viewapplicants = () => {
         <div className="left">
           <div className="logo-containerimg">
        <Link to={"/Employe"}>
-       <img src="..\src\Components\Landingpage\svgviewer-png-output (2).png" alt=""  height={"100vh"} width={"160vw"}/>
+       <img src={Logo} alt=""  height={"100vh"} width={"160vw"}/>
        </Link>    
 
           </div>

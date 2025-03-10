@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Userprofile.css";
 import axios from "axios";
+import Logo from "../../assets/Logo/Logo.png"
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
@@ -302,7 +303,7 @@ setMobile("");
           {/* <img src="src/Components/Logo.jpg" alt="Job Search Platform Logo" /> */}
 
 <Link to="/Applicant">
-<img src="..\src\Components\Landingpage\svgviewer-png-output (2).png" alt=""  height={"100vh"} width={"160vw"}/>
+<img src={Logo} alt=""  height={"100vh"} width={"160vw"}/>
 </Link>
         </div>
         <div className="right">

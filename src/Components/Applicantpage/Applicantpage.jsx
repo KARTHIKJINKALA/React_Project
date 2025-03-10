@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "../../assets/Logo/Logo.png"
 import { 
   faBookmark, 
   faLocationDot, 
@@ -168,7 +169,7 @@ export const Applicantpage = () => {
         <div className="left">
           {/* <img src={logo} alt="Job Search Platform Logo" />
            */}
-            <img src="..\src\Components\Landingpage\svgviewer-png-output (2).png" alt=""  height={"100vh"} width={"160vw"}/>
+            <img src={Logo} alt=""  height={"100vh"} width={"160vw"}/>
 
         </div>
         

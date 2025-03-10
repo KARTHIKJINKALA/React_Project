@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./Updatejob.css";
 import { Link } from "react-router-dom";
+import Logo from "../../assets/Logo/Logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
   faBuilding, 
@@ -87,7 +88,7 @@ export const Updatejob = () => {
               <div className="logo-containerimg">
 
 <Link to={"/Employe"}>
-      <img src="..\src\Components\Landingpage\svgviewer-png-output (2).png" alt=""  height={"100vh"} width={"160vw"}/>
+      <img src={Logo} alt=""  height={"100vh"} width={"160vw"}/>
 
 </Link>
 
